@@ -59,5 +59,6 @@ int main()
     cout << "Min la: " << number_min(arr, n) << endl;
     cout << "Max la: " << number_max(arr, n) << endl;
     cout << "Medium score la: " << setprecision(3) << fixed << medium_score(arr, n);
+    system("pause");
     return 0;
 }
