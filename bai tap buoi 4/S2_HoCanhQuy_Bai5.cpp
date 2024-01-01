@@ -26,11 +26,11 @@ int main()
     {
         sum += arr[i];
     }
-    if(sum % 2 != 0)
+    if(sum % 2 != 0 || n == 1)
     {
         cout << "NO";
     }
-    if((cnt2 % 2 != 0 && cnt1 % 2 == 0) || (cnt2 % 2 == 0 && cnt1 % 2 == 0))
+    else if((cnt2 % 2 != 0 && cnt1 % 2 == 0) || (cnt2 % 2 == 0 && cnt1 % 2 == 0))
     {
         cout << "YES";
     }
